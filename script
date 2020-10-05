@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# export passwords to external file
 
 shopt -s nullglob globstar
 prefix=${PASSWORD_STORE_DIR:-$HOME/.password-store}
